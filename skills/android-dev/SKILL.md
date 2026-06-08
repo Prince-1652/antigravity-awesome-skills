@@ -1,28 +1,30 @@
 ---
 name: android-dev
-description: >
-  Comprehensive Android app development skill covering all major development paths — native Android (Java/Kotlin), cross-platform (Flutter, React Native, KMM, Compose Multiplatform), and hybrid (Capacitor/Ionic) — but explicitly excluding iOS-only workflows. Use this skill whenever the user asks about building, designing, architecting, debugging, testing, releasing, or maintaining any Android or cross-platform mobile app. Trigger on any mention of: Android, Kotlin, Jetpack Compose, Flutter, React Native, KMM, APK, Play Store, Gradle, mobile app development, Android Studio, cross-platform mobile, or any Android-related library/framework. Always use this skill even if the request seems simple — it encodes battle-tested big-tech engineering practices for the full dev lifecycle.
+description: "Production-grade Android app development guide covering native (Kotlin/Java), cross-platform (Flutter, RN, KMM), and hybrid architectures."
+risk: safe
+source: community
+date_added: "2026-06-08"
 ---
 
 # Android App Development Skill
 
+## Overview
+
 This skill guides production-grade Android and cross-platform (non-iOS) app development following practices used at big tech companies. It covers the entire development lifecycle — architecture, UI, code quality, testing, error handling, release, and maintenance.
 
-## Quick Reference — What to Read
+## When to Use This Skill
 
-| User asks about... | Read |
-|--------------------|------|
-| Which stack to pick | §1 Stack Selection |
-| Architecture, project structure | §2 Architecture |
-| UI, screens, design system | §3 UI & Design |
-| Code quality, patterns, APIs | §4 Code Quality |
-| Error handling, crashes | §5 Error Handling |
-| Testing strategy | §6 Testing |
-| Build, CI/CD, release | §7 Build & Release |
-| Performance, memory | §8 Performance |
-| Debugging, bug fixing | §9 Debugging |
-| Full roadmap | §10 Development Roadmap |
-| Deep reference for a stack | See `references/` directory |
+- Use when deciding on a tech stack (see §1 Stack Selection)
+- Use when setting up project architecture (see §2 Architecture)
+- Use when designing UI, screens, or a design system (see §3 UI & Design)
+- Use when ensuring code quality, patterns, or APIs (see Best Practices)
+- Use when implementing error handling or debugging crashes (see §5 Error Handling)
+- Use when planning testing strategy (see §6 Testing)
+- Use when configuring build, CI/CD, or release pipelines (see §7 Build & Release)
+- Use when optimizing performance or memory (see §8 Performance)
+- Use when debugging or fixing bugs (see §9 Debugging)
+- Use when following the full development roadmap (see §10 Development Roadmap)
+- Use when needing deep reference for a stack (see `references/` directory)
 
 ---
 
@@ -191,7 +193,7 @@ Before writing screens, define:
 
 ---
 
-## §4 Code Quality
+## Best Practices
 
 ### Language Standards
 
@@ -504,7 +506,7 @@ Follow this phase structure for any new Android project:
 
 ---
 
-## Reference Files
+## Additional Resources
 
 For stack-specific deep dives, read:
 - `references/native-android.md` — Kotlin, Compose, Room, Hilt, Coroutines
