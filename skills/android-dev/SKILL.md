@@ -506,6 +506,13 @@ Follow this phase structure for any new Android project:
 
 ---
 
+## Limitations
+
+- This skill is scoped to Android and Android-adjacent delivery paths; it does not cover iOS-only architecture, App Store release operations, or Apple platform UI guidance.
+- Version numbers, Play Console policy thresholds, and recommended libraries can change; verify release-critical details against current Android, Google Play, and library documentation before shipping.
+- Code snippets are architecture patterns, not complete applications; adapt package names, dependency versions, permissions, privacy disclosures, and security controls to the actual project.
+- The guidance does not replace device QA, accessibility review, security review, legal/privacy review, or store compliance checks for a production release.
+
 ## Additional Resources
 
 For stack-specific deep dives, read:
