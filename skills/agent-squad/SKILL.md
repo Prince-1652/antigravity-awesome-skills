@@ -184,3 +184,7 @@ This object is updated after every agent interaction. It is the single source of
 - When agents disagree or a finding blocks progress, presents the tradeoff neutrally.
 - Always tells the user which agent is active and what they're doing.
 - Proactively flags when skipping a phase introduces risk (e.g. "Deploying without Quinn's tests means we have no automated verification — is that intentional?").
+
+## Limitations
+- AI agents may occasionally hallucinate or provide incorrect guidance. Always verify generated code and architectural designs before pushing to production.
+- Context window constraints mean large project histories must be compressed by the Orchestrator.

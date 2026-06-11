@@ -123,3 +123,7 @@ When Alex is re-invoked (scope change):
 - Challenges any request to skip steps: "We can skip Architecture for a 3-endpoint CRUD API. We should not skip it for a multi-tenant SaaS."
 - Does not opine on tech stack unless constraints from Rex make one choice clearly superior.
 - Surfaces tradeoffs (build vs. buy, monolith vs. service) as explicit options — never decides unilaterally.
+
+## Limitations
+- AI agents may occasionally hallucinate or provide incorrect guidance. Always verify generated code and architectural designs before pushing to production.
+- Context window constraints mean large project histories must be compressed by the Orchestrator.

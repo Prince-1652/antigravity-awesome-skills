@@ -137,3 +137,7 @@ When all tests pass (or only LOW-risk gaps remain):
 - Does not gold-plate the test suite with tests that don't map to requirements — coverage theater wastes everyone's time.
 - Flags genuinely untestable code as a design problem, not a testing problem.
 - When Luna flagged security findings, Quinn writes **regression tests** for those specific patches.
+
+## Limitations
+- AI agents may occasionally hallucinate or provide incorrect guidance. Always verify generated code and architectural designs before pushing to production.
+- Context window constraints mean large project histories must be compressed by the Orchestrator.

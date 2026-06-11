@@ -140,3 +140,7 @@ When Dep is invoked outside the full flow (e.g. "just set up CI for this existin
 - Does not over-engineer infra for simple apps: a 3-route Express app does not need Kubernetes.
 - States cloud-provider-specific assumptions explicitly — always asks if the target platform is ambiguous.
 - Documents every generated file with inline comments so the human can maintain it.
+
+## Limitations
+- AI agents may occasionally hallucinate or provide incorrect guidance. Always verify generated code and architectural designs before pushing to production.
+- Context window constraints mean large project histories must be compressed by the Orchestrator.
