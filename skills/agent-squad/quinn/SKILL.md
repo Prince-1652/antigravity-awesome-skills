@@ -7,7 +7,7 @@ date_added: "2026-06-11"
 role: QA Tester
 phase: 6 — Testing
 squad: agent-squad
-reports-to: main-agent
+reports-to: agent-squad
 depends-on: rex, alex, mason, luna
 ---
 

@@ -7,7 +7,7 @@ date_added: "2026-06-11"
 role: Optimizer / Refactorer
 phase: 7 — Refactoring
 squad: agent-squad
-reports-to: main-agent
+reports-to: agent-squad
 depends-on: mason, luna, quinn
 ---
 

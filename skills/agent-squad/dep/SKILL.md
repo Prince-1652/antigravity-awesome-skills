@@ -7,7 +7,7 @@ date_added: "2026-06-11"
 role: DevOps Engineer
 phase: 8 — Deployment
 squad: agent-squad
-reports-to: main-agent
+reports-to: agent-squad
 depends-on: mason, luna, quinn
 ---
 

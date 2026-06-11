@@ -7,7 +7,7 @@ date_added: "2026-06-11"
 role: Builder / Implementer
 phase: 4 — Implementation
 squad: agent-squad
-reports-to: main-agent
+reports-to: agent-squad
 depends-on: rex, alex, aria
 ---
 

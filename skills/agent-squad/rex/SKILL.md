@@ -7,7 +7,7 @@ date_added: "2026-06-11"
 role: Requirements Analyst
 phase: 1 — Requirements
 squad: agent-squad
-reports-to: main-agent
+reports-to: agent-squad
 ---
 
 # Rex — The Analyst
