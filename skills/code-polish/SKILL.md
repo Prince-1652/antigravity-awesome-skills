@@ -83,7 +83,7 @@ Apply these standards to every comment touched or added:
 - **Use the language's idiomatic doc format** for functions, classes, and public APIs (JSDoc, docstrings, `///`, etc.) — match the convention already used elsewhere in the file if one exists.
 - **Be concise.** No padding, no restating the obvious, no filler sentences.
 - **No informal register.** No jokes, no venting, no first-person asides ("I think this works because...").
-- **No AI-tell phrasing.** Avoid generic filler like "This function is responsible for..." or "Note that..." padding, and avoid em-dashes — write plainly and directly, the way a careful senior engineer would.
+- **No AI-tell phrasing.** Avoid generic filler like "This function is responsible for..." or "Note that..." padding, and avoid em-dashes. Write plainly and directly, the way a careful senior engineer would.
 - **Don't invent behavior.** If you're not certain why something is done a certain way, say what the code does, not a fabricated justification for why.
 
 ---
@@ -172,7 +172,7 @@ func GetUser(id string) (*User, error) { ... }
 
 ---
 
-## Hard Boundaries
+## Security & Safety Notes
 
 This skill never:
 - Changes program logic, control flow, or algorithmic behavior
